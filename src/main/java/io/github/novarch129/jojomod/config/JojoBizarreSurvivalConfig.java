@@ -57,11 +57,11 @@ public class JojoBizarreSurvivalConfig {
 
             standPunchBlockBreaking = builder
                     .comment("Toggle Stand punches breaking blocks, like the MobGriefing gamerule.")
-                    .define("standPunchBlockBreaking", true);
+                    .define("standPunchBlockBreaking", false);
 
             infiniteTimestop = builder
                     .comment("Toggle The World's and Star Platinum's timestop not having a time limit.")
-                    .define("infiniteTimestop", false);
+                    .define("infiniteTimestop", true);
 
             abilityImmediatelyActive = builder
                     .comment("Toggle Stand abilities being active by default when summoning a Stand.")
